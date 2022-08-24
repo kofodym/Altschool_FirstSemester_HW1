@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles1/style.css"/>
+    <title>Contact me</title>
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <div class= "logo">
+              <img src="" height="" width="">
+            </div>
+            <nav class="nav">
+                <a href="Aboutme.html" target="_blank"> About me </a>
+                <a href="contactme.html" id="active" target="_blank"> Contact me </a>
+                <a href="login.html" target="_blank"> Login </a>
+                <a href="calculator.html" target="_blank">  Calculator </a>
+                <a href="register.html" target="_blank">  Register </a>
+           </nav>  
+        </div>
+    </header>
+    <section>
+        <h2> DDC Student Registration</h2>
+        <p>Please enter your details below:</p>
+    </section>
+    <section>
+
+        <form action="" method="post">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="email" required>
+            </div>
+            <div>
+                <label for="message">Message: </label>
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+            </div>
+            <div>
+                <label for="gender">Priority</label>
+                <select name="prority" id="prority" required>
+                    <option value="urgent"> Urgent </option>
+                    <option value="not urgent"> Not Urgent </option>
+                </select>
+            </div>
+            <button type="submit">submit</button>
+        
+            </form>  
+        
+    </section>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="week1.css">
+    <script src="week1.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="container">
+    <form action="index.html" method="post">
+        <h1>Sign-in with your details</h1>
+        <div class="form-content">
+            <div>
+                <label for="fullname">
+                    Enter Name:
+                    <input type="text" name="fullname" id="fullname" placeholder="Your full name" required maxlength="10">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="username">
+                    Enter Username:
+                    <input type="text" name="username" id="username" placeholder="username" required>
+                </label>
+            </div>
+            <br>
+
+            <div>
+                <label for="password1">
+                Enter Password:
+                    <input type="password" name="password1" id="password1" placeholder="password" required>
+                </label>
+            </div>
+            <br>
+
+            <div>
+                <label for="password2">
+                    Re-enter Password:
+                    <input type="password" name="password2" id="password2" placeholder="password" required>
+                </label>
+            </div>
+            <br>
+
+            <div>
+                <input type="submit" value="Login" id="submit">
+            </div>
+            <div class="signup-message">
+                Forgot Your Password?
+            </div>
+         </div> 
+    </form>
+</section>  
+</body>
+</html>
